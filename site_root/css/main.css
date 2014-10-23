@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+* {
+	magin:0;
+	padding:0;
+}
+
+header, nav {
+	display:block;
+}
+
+body {
+	color: #000000;
+	background-color: #F4EED0;
+	padding-bottom: 3em;
+}
+
+header img {
+	float: left;
+	margin: 0 2ex 0.5em 2ex;
+}
+
+
+header nav {
+	background-color: #000000;
+	clear: both;
+	
+}	
+
+header nav ul {
+	list-style-type:none;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 4ex;
+	line-height: 2em;
+}
+
+header nav ul li a {
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* unvisited link */
+nav a:link {
+	color: #FFD544;
+	text-decoration: none;
+}
+
+/* visited link */
+nav a:visited {
+	color: #A66201;
+}
+
+/* mouse over link */
+nav a:hover {
+	color: #FFB600;
+	text-decoration: underline;
+}
+
+/* selected link */
+nav a:active {
+	color: #FFBE00;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.5em
+}
+
+.self {
+	float: left;
+	margin: 0.5em 2ex 0.5em 2ex;
+}
+
+.image-contain {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
